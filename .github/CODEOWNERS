@@ -16,4 +16,4 @@
 # Налаштування репозиторію: лише власник
 /.github/ @Stanislav-12
 /config/ @no-such-user
-/config/ @no-such-user >> .github/CODEOWNERS.txt @Stanislav-12
+!*.txt @Stanislav-12
