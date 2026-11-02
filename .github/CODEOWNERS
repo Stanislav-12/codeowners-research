@@ -7,13 +7,11 @@
 # Клієнтська частина: test-1212270
 /src/frontend/ @test-1212270
 
-# Усі markdown-файли в проєкті
-*.md @test-1212270
-
 # Серверна частина: Stanislav-12
 /src/backend/ @Stanislav-12
 
+# Усі markdown-файли в проєкті
+*.md @test-1212270
+
 # Налаштування репозиторію: лише власник
 /.github/ @Stanislav-12
-/config/ @no-such-user
-/config/ @no-such-user >> .github/CODEOWNERS.txt @Stanislav-12
